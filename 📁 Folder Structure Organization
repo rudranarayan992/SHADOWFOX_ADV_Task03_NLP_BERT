@@ -1,0 +1,18 @@
+📁 SHADOWFOX_ADV_Task03_NLP_BERT/
+│
+├── 📁 notebook/
+│   └── BERT_NLP_Analysis_Rudra.ipynb
+│
+├── 📁 src/                         # Optional: Python scripts (if needed)
+│   └── bert_utils.py
+│
+├── 📁 media/                       # Plots and visualization images
+│   └── attention_map.png
+│
+├── 📁 docs/                        # Markdown files (bonus ideas, exploration, etc.)
+│   └── ideas.md
+│   └── exploration.md
+│
+├── 📄 README.md
+├── 📄 requirements.txt
+└── 📄 .gitignore
