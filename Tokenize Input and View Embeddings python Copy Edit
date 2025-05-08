@@ -1,0 +1,5 @@
+input_text = "Natural Language Processing is fascinating!"
+inputs = tokenizer(input_text, return_tensors='pt')
+outputs = model(**inputs)
+
+print(outputs.last_hidden_state.shape)
