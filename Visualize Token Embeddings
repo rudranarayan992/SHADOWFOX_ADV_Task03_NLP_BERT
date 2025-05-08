@@ -1,0 +1,9 @@
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+token_embeddings = outputs.last_hidden_state[0]
+tokens = tokenizer.convert_ids_to_tokens(inputs['input_ids'][0])
+
+sns.heatmap(token_embeddings.detach().numpy(), xticklabels=tokens)
+plt.title("Token Embedding Heatmap")
+plt.show()
