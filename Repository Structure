@@ -1,0 +1,9 @@
+SHADOWFOX_ADV_Task03_NLP_BERT/
+│
+├── 📘 README.md                     # Project overview and instructions
+├── 📓 BERT_NLP_Analysis_Rudra.ipynb # Jupyter Notebook with full implementation
+├── 📁 images/                       # Plots and heatmaps (optional for README)
+│   └── attention_map.png
+├── 📄 requirements.txt              # Python package dependencies
+├── 📁 data/                         # Sample text or datasets (if used)
+└── 📄 .gitignore                    # Ignore unnecessary files
